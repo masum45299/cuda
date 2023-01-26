@@ -1,0 +1,63 @@
+header {
+    background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)), url(../../img/img/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+}
+
+.menu-bar {
+    padding-top: 2rem;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0.5rem 1.9rem;
+    border-radius: 0.3rem;
+    margin-left: 3.2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.list li :hover {
+    background-color: #333;
+    transition: .3s;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    font-size: 4rem;
+}
+
+.header-btn {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3.5rem;
+    padding: 1rem 1.6rem;
+    font-size: 1.6rem;
+    background-color: #eb7d4b;
+    border-radius: 1rem;
+    border: 0.2rem solid #c86a40;
+}
+
+.header-btn:hover {
+    color: #fff;
+}

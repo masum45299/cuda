@@ -1,0 +1,24 @@
+.section2-body {
+    background-color: #e7f1f8;
+    height: 85vh;
+    padding: 8rem 0;
+}
+
+.section2 h1 {
+    text-align: center;
+}
+
+.section2-p {
+    text-align: center;
+}
+
+.section2 h1::after {
+    content: '';
+    height: 0.2rem;
+    width: 8.7rem;
+    display: block;
+    background: #c8d9e5;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+}
